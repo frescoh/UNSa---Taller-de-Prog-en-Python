@@ -2,11 +2,11 @@
 
 import random
 
-n = int(raw_input("cantidad elementos: "))
-pesoMaximo = int(raw_input("peso maximo: "))
+n = int(input("cantidad elementos: "))
+pesoMaximo = int(input("peso maximo: "))
 
-gananciaDer = int(raw_input("maxima ganancia (rnd): "))
-pesoDer = int(raw_input("maximo peso (rnd): "))
+gananciaDer = int(input("maxima ganancia (rnd): "))
+pesoDer = int(input("maximo peso (rnd): "))
 
 if (n>0 and gananciaDer>0 and pesoDer>0 and pesoDer<pesoMaximo):
 	solution = []
@@ -33,13 +33,13 @@ if (n>0 and gananciaDer>0 and pesoDer>0 and pesoDer<pesoMaximo):
 		else:
 			ban=False
 	
-	print " mochila " + str(solution)
-	print " beneficio " + str(sumaBeneficio)
-	print " beneficios " + str(benefits)
-	print " pesos " + str(weights)
+	print(" mochila " + str(solution))
+	print(" beneficio " + str(sumaBeneficio))
+	print(" beneficios " + str(benefits))
+	print(" pesos " + str(weights))
 
 else:
-	print "error en la carga de parametros"
+	print("error en la carga de parametros")
 
 
 

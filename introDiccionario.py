@@ -10,7 +10,7 @@ discoRolling=['voodoo lounge', 'bridges to babylon', 'a bigger bang', 'blue and 
 discoRadio=['the bends', 'kid A', 'ok computer', 'in rainbows']
 
 
-runs = int(raw_input("cantidad de corridas: "))
+runs = int(input("cantidad de corridas: "))
 if (runs>0):
 	
 	ranking = {}	
@@ -33,12 +33,12 @@ if (runs>0):
 			cantidad = ranking[banda[i]]
 			top1=banda[i]
 			
-	print 'la banda mas escuchada es ' + top1 + '# ' + str(cantidad)
+	print('la banda mas escuchada es ' + top1 + '# ' +str(cantidad))
 	
-	print str(ranking)
+	print(ranking)
 		
 else:
-	print 'error en la carga de parametros'	
+	print('error en la carga de parametros')
 
 	
 	

@@ -24,8 +24,15 @@ if x!="": 	# Analiza que la cadena no esté vacia
 		print("algunos caracteres no son digitos " + x)
 
 	# en caso de que la contenga, index busca donde comienza una subcadena dentro de la cadena
-	# Para evitar la excepcion en caso de que la subcadena no se encuentre en la cadena, se puede trabajar con el metodo find()
+	# Para evitar la excepcion en caso de que la subcadena no se encuentre en la cadena, 
+	# se puede trabajar con el metodo find(). ej: x.find(subC)
+	# index
+	# https://docs.python.org/3/library/stdtypes.html?highlight=index#str.index
 	# https://www.w3schools.com/python/ref_string_index.asp
+	
+	# find:
+	# https://docs.python.org/3/library/stdtypes.html?highlight=find#str.find
+	# https://www.w3schools.com/python/ref_string_find.asp
 	subC = input("ingrese subcadena a buscar dentro del texto ingresado anteriormente: ")
 	if subC!="":
 		print("La subC esta en posicion: " + x.index(subC))
